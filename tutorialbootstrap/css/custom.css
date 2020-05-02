@@ -1,0 +1,15 @@
+.jumbotron {
+  background-color: green;
+  background: url("");
+  background-repeat: no-repeat;
+}
+
+.jumbotron.home {
+  background-color: green;
+  background: url("");
+  background-repeat: no-repeat;
+}
+
+.jumbotron h1, .jumbotron p {
+  color: red;
+}

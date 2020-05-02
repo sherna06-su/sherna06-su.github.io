@@ -1,19 +1,43 @@
+.jumbotron {
+      background: url("C:/Users/JORGE/Desktop/WebDesign/cafe1-1.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+      border-radius: 0 !important;
+    }
+
 h1 {
-  color: red;
+  text-align: center !important;
+  font-family: 'Courgette', cursive !important;
+}
+
+h1 span {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  font-family: 'Courgette', cursive !important;
+}
+
+h3 {
+  font-family: 'Adamina', serif;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
 }
 
 p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Adamina', serif;
+  text-align: center;
   font-size: 20px;
-  padding: 34px 20px;
+  padding: 20px 80px;
 }
 
-div{
-  display: inline-block;
-}
-
-.one-third {
-  width: 33%;
+h4 {
+  font-family: 'Adamina', serif;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px 75px;
+  line-height: 30px;
 }
