@@ -11,6 +11,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+       var lazyLoadInstance = new LazyLoad({
+         elements_selector: ".lazy"
+         // ... more custom settings?
+      });
+    </script>
 
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Courgette&display=swap');
@@ -71,7 +78,7 @@
           bring endeavor ready clients, locals, and travelers a truly unique coffee experience.</p>
     </div>
     <div class="col-6">
-       <img src="cafe1-2.jpg" class="img-fluid rounded" alt="Some coffee we prepared">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/c_scale,w_668/v1588545786/Cafe/cafe1-2_qvocw8.jpg" class="img-fluid rounded lazy" alt="Some coffee we prepared">
     </div>
   </div>
 </div>
@@ -79,7 +86,7 @@
 <div class="container-fluid">
   <div class="row no-gutters">
     <div class="col-6">
-       <img src="cafe1-3.jpg" class="img-fluid rounded" alt="Inside of Java Cafe">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/c_scale,w_668/v1588545788/Cafe/cafe1-3_sqcxij.jpg" class="img-fluid rounded lazy" alt="Inside of Java Cafe">
     </div>
     <div class="col-6 align-self-center">
        <p>Most of all, we are committed to giving you the best customer service as well as a comfortable environment
@@ -95,7 +102,7 @@
           also worldwide neighborhoods.</p>
     </div>
     <div class="col-6">
-       <img src="cafe1-4.jpg" class="img-fluid rounded" alt="Our speedy delivery person">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/c_scale,w_668/v1588545790/Cafe/cafe1-4_dipztd.jpg" class="img-fluid rounded lazy" alt="Our speedy delivery person">
     </div>
   </div>
 </div>
@@ -103,7 +110,7 @@
 <div class="container-fluid">
   <div class="row no-gutters">
     <div class="col-6">
-       <img src="cafe1-5.jpg" class="img-fluid rounded" alt="Inside of Java Cafe">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/c_scale,h_445,w_668/v1588545792/Cafe/cafe1-5_wt1ssm.jpg" class="img-fluid rounded lazy" alt="Inside of Java Cafe">
     </div>
     <div class="col-6 align-self-center">
        <p>As a missional Cafe focused on lasting options to poverty, we turn profits into hope. We do this by

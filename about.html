@@ -11,6 +11,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+       var lazyLoadInstance = new LazyLoad({
+         elements_selector: ".lazy"
+         // ... more custom settings?
+      });
+    </script>
 
     <style>
        @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Courgette&display=swap');
@@ -70,7 +77,7 @@
       <p>We intend to nurture a sense of marvel and curiosity with every sip you take</p>
     </div>
     <div class="col-6">
-       <img src="cafe2-1.jpg" class="img-fluid rounded" alt="Our delicious coffee">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/v1588545794/Cafe/cafe2-1_alple9.jpg" class="img-fluid rounded lazy" alt="Our delicious coffee">
     </div>
   </div>
 </div>
@@ -78,7 +85,7 @@
 <div class="container-fluid">
   <div class="row no-gutters">
     <div class="col-6">
-       <img src="cafe2-2.jpg" class="img-fluid rounded" alt="A barista making coffee">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/v1588545802/Cafe/cafe2-2_a8u3mw.jpg" class="img-fluid rounded lazy" alt="A barista making coffee">
     </div>
     <div class="col-6 align-self-center">
       <h3>Our philosophy</h3>
@@ -96,7 +103,7 @@
          hope. We do this by creating a product you love and donating 10% of all proceeds to charity</p>
     </div>
     <div class="col-6">
-       <img src="cafe2-3.jpg" class="img-fluid rounded" alt="A barista making coffee">
+       <img data-src="https://res.cloudinary.com/ddsu9p7mq/image/upload/v1588545802/Cafe/cafe2-3_w8pthk.jpg" class="img-fluid rounded lazy" alt="A barista making coffee">
     </div>
   </div>
 </div>
