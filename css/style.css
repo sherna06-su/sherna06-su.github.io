@@ -14,7 +14,7 @@
     }
 
 .jumbotron-hanoi {
-      background: url("https://res.cloudinary.com/ddsu9p7mq/image/upload/v1589905207/Travel%20Blog/863A19D3-63E0-4243-9D67-120F1ADBAE6E_pn53ui.jpg") no-repeat center center;
+      background: url("https://res.cloudinary.com/ddsu9p7mq/image/upload/v1589856895/Travel%20Blog/4BBFE348-3972-4299-994D-ECC0313396F6_oyy1rn.jpg") no-repeat center center;
       background-size: cover;
       width: 100%;
       padding-top: 20%;
@@ -48,6 +48,42 @@
       padding-bottom: 20%;
       border-radius: 0 !important;
     }
+
+.jumbotron-montreal{
+      background: url("https://res.cloudinary.com/ddsu9p7mq/image/upload/v1589927961/Travel%20Blog/997F936A-630F-4D1E-93E2-E010DCF2D5C5_eo3ejv.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+      border-radius: 0 !important;
+    }
+
+.jumbotron-quebec{
+      background: url("https://res.cloudinary.com/ddsu9p7mq/image/upload/v1589905205/Travel%20Blog/4146F2F0-12CC-4FFB-9941-728558ED402E_izullb.jpg") no-repeat center center;
+      background-size: cover;
+      width: 100%;
+      padding-top: 20%;
+      padding-bottom: 20%;
+      border-radius: 0 !important;
+  }
+
+.jumbotron-gear{
+    background: url("https://res.cloudinary.com/ddsu9p7mq/image/upload/v1589950125/Travel%20Blog/C93DE141-A2F9-4C93-A567-3C635C2F0AF8_1_iezjbo.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    border-radius: 0 !important;
+}
+
+.jumbotron-about{
+    background: url("https://res.cloudinary.com/ddsu9p7mq/image/upload/v1589854369/Travel%20Blog/DDAB45A2-50F4-4EE7-9EF9-E4CD5ADB77A5_etsqfs.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    border-radius: 0 !important;
+}
 
 .carousel {
   width: 900px;
@@ -130,4 +166,29 @@ h4 {
   font-size: 17px;
   padding: 20px 75px;
   line-height: 30px;
+}
+
+
+@media (min-width: 979px) {
+	body {
+		margin-top:40px !important;
+	}
+}
+@media (max-width: 978px) {
+	p {
+   font-size:7.5px !important;
+	 padding:0 !important;
+	 margin:0 !important;
+	}
+  h3 {
+   font-size: 8px !important;
+  }
+  h4 {
+   font-size: 6px !important;
+   padding: 0 !important;
+   margin: -12px !important;
+  }
+  body {
+     padding:0;
+    }
 }
